@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('fonts/firasans_regular.woff');
+}
+
+@font-face {
+    font-family: 'Fira Sans Bold';
+    src: url('fonts/firasans_bold.woff')
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('fonts/charter_regular.woff2');
+}
+
+@font-face {
+    font-family: 'Charter Italic';
+    src: url('fonts/charter_italic.woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.4vw;
+}
+
+body {
+    font-family: 'Charter', serif;
+    max-width: 70ch;
+    margin: 2em auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    gap: 2ch;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h1, address {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Fira Sans Bold', sans-serif;
+    font-weight: normal;
+    font-size: 1.4em;
+    border-top: 3px solid #BB2525;
+    margin-top: 1.6em;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 1.6em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.7em;
+    margin-bottom: .2em;
+}
+
+a {
+    text-decoration: none;
+    color: #BB2525;
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+p {
+    font-family: 'Charter Italic', 'Charter', serif;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 1.6em;
+    margin-top: 0.8em;
+}

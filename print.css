@@ -1,0 +1,12 @@
+html {
+    font-size: 1.8vw;
+}
+
+body {
+    margin: 10% auto;
+}
+
+.page-break {
+    break-after: always;
+    page-break-after: always;
+}
